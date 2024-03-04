@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: plum;
+}
+
+.container {
+    text-align: center;
+}
+
+#login-form {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#logout-btn {
+    background-color: #ff0000; /* Red color for logout button */
+    display: none; /* Hide initially */
+    margin-top: 10px;
+}
+
+#logout-btn:hover {
+    background-color: #cc0000;
+}
